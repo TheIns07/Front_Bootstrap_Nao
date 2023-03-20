@@ -16,24 +16,27 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
         type="text/css" />
+    <link rel="stylesheet" href="./styles.css">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Inicio</a>
-            <div class="collapse navbar-collapse" id="navbar1">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Experiencia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Aprende Conmigo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contactame</a>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Inicio</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active">Experiencia</a>
+                    <a href="#" class="nav-item nav-link">Aprende Conmigo</a>
+                    <a href="#" class="nav-item nav-link">Contactame</a>
+                    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+                </div>
+                <div class="navbar-nav ms-auto">
+                    <a href="#" class="nav-item nav-link">Login</a>
+                </div>
             </div>
         </div>
     </nav>
